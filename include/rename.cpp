@@ -58,7 +58,7 @@ void rename(char titles[22][22], int k){
 //debug info, not necessary.
 /*          int b;
           for (int b = 0; b <999999999; b++) {
-            printf("\x1b[30;38HDebug, no funciona y no se por que :)");
+            printf("\x1b[30;38HDebug, no funciona");
             printf("\x1b[31;38HOLDNAME-%s\n",oldname);
             printf("\x1b[32;38HNEWNAME-%s\n",newname);
             printf("\x1b[33;38HTITLES-%s\n",titles[1]);
