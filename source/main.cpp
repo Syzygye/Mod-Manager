@@ -3,6 +3,7 @@
 #include <dirent.h>
 #include <switch.h>
 #include "tcross.cpp"
+#include "tcrossx.cpp"
 #include "logo.cpp"
 
 int main(int argc, char **argv)
@@ -18,9 +19,9 @@ logo();
             ejecutar1=false;
             k=1;
             m=3;
-            printf("\x1b[5;0HFolders\n");
-            printf("\x1b[7;0HDelete\n");
-            printf("\x1b[9;0Hop3\n");
+            printf("\x1b[5;0HAtmosphere\n");
+            printf("\x1b[7;0HSxos\n");
+            printf("\x1b[9;0HDev\n");
             printf("\x1b[11;0HExit\n");
 
 
@@ -40,30 +41,30 @@ logo();
 
               switch (k){
                 case 1:{
-                  printf("\x1b[7;0HDelete\n");
-                  printf("\x1b[9;0Hop3\n");
+                  printf("\x1b[7;0HSxos\n");
+                  printf("\x1b[9;0HDev\n");
                   printf("\x1b[11;0HExit\n");
-                  printf(CONSOLE_ESC(32;1m)"\x1b[5;0HFolders\n");
+                  printf(CONSOLE_ESC(32;1m)"\x1b[5;0HAtmosphere\n");
                   printf(CONSOLE_ESC(0m));
                   break;}
                 case 2:{
-                  printf("\x1b[5;0HFolders\n");
-                  printf("\x1b[9;0Hop3\n");
+                  printf("\x1b[5;0HAtmosphere\n");
+                  printf("\x1b[9;0HDev\n");
                   printf("\x1b[11;0HExit\n");
-                  printf(CONSOLE_ESC(32;1m)"\x1b[7;0HDelete\n");
+                  printf(CONSOLE_ESC(32;1m)"\x1b[7;0HSxos\n");
                   printf(CONSOLE_ESC(0m));
                 break;}
                 case 3:{
-                  printf("\x1b[5;0HFolders\n");
-                  printf("\x1b[7;0HDelete\n");
+                  printf("\x1b[5;0HAtmosphere\n");
+                  printf("\x1b[7;0HSxos\n");
                   printf("\x1b[11;0HExit\n");
-                  printf(CONSOLE_ESC(32;1m)"\x1b[9;0Hop3\n");
+                  printf(CONSOLE_ESC(32;1m)"\x1b[9;0HDev\n");
                   printf(CONSOLE_ESC(0m));
                 break;}
                 case 4:{
-                  printf("\x1b[5;0HFolders\n");
-                  printf("\x1b[7;0HDelete\n");
-                  printf("\x1b[9;0Hop3\n");
+                  printf("\x1b[5;0HAtmosphere\n");
+                  printf("\x1b[7;0HSxos\n");
+                  printf("\x1b[9;0HDev\n");
                   printf(CONSOLE_ESC(32;1m)"\x1b[11;0HExit\n");
                   printf(CONSOLE_ESC(0m));
                   break;}
@@ -80,8 +81,9 @@ logo();
           case 1:{
             tcross();
           break;}
-          case 2:{
 
+          case 2:{
+            tcrossx();
           break;}
           case 3:{
 
