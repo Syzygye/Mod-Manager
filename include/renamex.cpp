@@ -1,4 +1,4 @@
-void rename(char titles[22][22], int k){
+void renamex(char titles[17][17], int k){
   #include "rename.h"
   //Print submenu.
   printf("\x1b[4;40HAdd x\n");
@@ -35,28 +35,28 @@ void rename(char titles[22][22], int k){
 
       switch (x){
         case 1:{        // Add "x" at the end of the name.
-          char dire[20]="/atmosphere/titles/";
-          char newname[36];
-          char oldname[36];
+          char dire[14]="/sxos/titles/";
+          char newname[30];
+          char oldname[30];
           //Fill "oldname" with "dire" and with the name of the folder.
-          for(i=0;i<20;i++)oldname[i]=dire[i];
-          for(i=19;i<36;i++){
+          for(i=0;i<13;i++)oldname[i]=dire[i];
+          for(i=13;i<30;i++){
             oldname[i]=titles[k][y];
             ++y;
           }
           y=0;
           //Fill "newname" with "dire" and with the name of the folder.
-          for(i=0;i<19;i++)newname[i]=dire[i];
-            for(i=19;i<35;i++){
+          for(i=0;i<13;i++)newname[i]=dire[i];
+            for(i=13;i<29;i++){
               newname[i]=titles[k][y];
               ++y;
             }
-          newname[35]='x'; //Add "x" in the character 35.
+          newname[29]='x'; //Add "x" in the character 35.
           rename(oldname, newname); //Just rename.
           printf("\x1b[30;38HDone!\n");
 
 //debug info, not necessary.
-      /*    int b;
+        /*  int b;
           for (int b = 0; b <50; b++) {
             printf("\x1b[30;38HDebug, no funciona y no se por que :)");
             printf("\x1b[31;38HOLDNAME-%s\n",oldname);
@@ -68,99 +68,103 @@ void rename(char titles[22][22], int k){
 
         break;}
         case 2:{
-          char dire[20]="/atmosphere/titles/";
-          char newname[36];
-          char oldname[36];
-          for(i=0;i<20;i++)oldname[i]=dire[i];
-          for(i=19;i<36;i++){
+          char dire[14]="/sxos/titles/";
+          char newname[30];
+          char oldname[30];
+          for(i=0;i<13;i++)oldname[i]=dire[i];
+          for(i=13;i<30;i++){
             oldname[i]=titles[k][y];
             ++y;
           }
           y=0;
-          for(i=0;i<19;i++)newname[i]=dire[i];
-          for(i=19;i<35;i++){
+          for(i=0;i<13;i++)newname[i]=dire[i];
+          for(i=13;i<29;i++){
             newname[i]=titles[k][y];
             ++y;
           }
-          newname[35]='y';
+          newname[29]='y';
           rename(oldname, newname);
           printf("\x1b[30;38HDone!\n");
         break;}
         case 3:{
-          char dire[20]="/atmosphere/titles/";
-          char newname[36];
-          char oldname[36];
-          for(i=0;i<20;i++)oldname[i]=dire[i];
-          for(i=19;i<36;i++){
+          char dire[14]="/sxos/titles/";
+          char newname[30];
+          char oldname[30];
+          for(i=0;i<13;i++)oldname[i]=dire[i];
+          for(i=13;i<30;i++){
             oldname[i]=titles[k][y];
             ++y;
           }
           y=0;
-          for(i=0;i<19;i++)newname[i]=dire[i];
-          for(i=19;i<35;i++){
+          for(i=0;i<13;i++)newname[i]=dire[i];
+          for(i=13;i<29;i++){
             newname[i]=titles[k][y];
             ++y;
           }
-          newname[35]='a';
+          newname[29]='a';
           rename(oldname, newname);
           printf("\x1b[30;38HDone!\n");
+
         break;}
         case 4:{
-          char dire[20]="/atmosphere/titles/";
-          char newname[36];
-          char oldname[36];
-          for(i=0;i<20;i++)oldname[i]=dire[i];
-          for(i=19;i<36;i++){
+          char dire[14]="/sxos/titles/";
+          char newname[30];
+          char oldname[30];
+          for(i=0;i<13;i++)oldname[i]=dire[i];
+          for(i=13;i<30;i++){
             oldname[i]=titles[k][y];
             ++y;
           }
           y=0;
-          for(i=0;i<19;i++)newname[i]=dire[i];
-          for(i=19;i<35;i++){
+          for(i=0;i<13;i++)newname[i]=dire[i];
+          for(i=13;i<29;i++){
             newname[i]=titles[k][y];
             ++y;
           }
-          newname[35]='b';
+          newname[29]='b';
           rename(oldname, newname);
           printf("\x1b[30;38HDone!\n");
+
         break;}
         case 5:{
-          char dire[20]="/atmosphere/titles/";
-          char newname[36];
-          char oldname[36];
-          for(i=0;i<20;i++)oldname[i]=dire[i];
-            for(i=19;i<36;i++){
+          char dire[14]="/sxos/titles/";
+          char newname[30];
+          char oldname[30];
+          for(i=0;i<13;i++)oldname[i]=dire[i];
+          for(i=13;i<30;i++){
             oldname[i]=titles[k][y];
             ++y;
           }
           y=0;
-          for(i=0;i<19;i++)newname[i]=dire[i];
-          for(i=19;i<35;i++){
+          for(i=0;i<13;i++)newname[i]=dire[i];
+          for(i=13;i<29;i++){
             newname[i]=titles[k][y];
             ++y;
           }
-          newname[35]='z';
+          newname[29]='z';
           rename(oldname, newname);
           printf("\x1b[30;38HDone!\n");
+
         break;}
         case 6:{
-          char dire[20]="/atmosphere/titles/";
-          char newname[36];
-          char oldname[36];
-          for(i=0;i<20;i++)oldname[i]=dire[i];
-          for(i=19;i<36;i++){
+          char dire[14]="/sxos/titles/";
+          char newname[30];
+          char oldname[30];
+          for(i=0;i<13;i++)oldname[i]=dire[i];
+          for(i=13;i<30;i++){
             oldname[i]=titles[k][y];
             ++y;
           }
           y=0;
-          for(i=0;i<19;i++)newname[i]=dire[i];
-          for(i=19;i<35;i++){
+          for(i=0;i<13;i++)newname[i]=dire[i];
+          for(i=13;i<29;i++){
             newname[i]=titles[k][y];
             ++y;
           }
-          newname[35]='\0';
+          newname[29]='\0';
           rename(oldname, newname);
           printf("\x1b[30;38HDone!\n");
+
         break;}
       }
 }

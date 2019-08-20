@@ -1,21 +1,21 @@
-#include "rename.cpp"
+#include "renamex.cpp"
 
-void tcross(){
+void tcrossx(){
   int q=0; //End-loop variable.
     do{
-      #include "tcross.h"
+      #include "tcrossx.h"
       consoleInit(NULL);
       #include "headerb.cpp"
-      dir = opendir("/atmosphere/titles");
+      dir = opendir("/sxos/titles");
       if(dir==NULL){
-        printf("Failed to open /atmosphere/titles.\n");
+        printf("Failed to open /sxos/titles.\n");
       }
       else{          //Print the folders.
         while ((ent = readdir(dir)) != NULL){
         printf("\x1b[%i;2HID%i: %s\n",m++,++t, ent->d_name);
         }
         closedir(dir);
-        dir = opendir("/atmosphere/titles");
+        dir = opendir("/sxos/titles");
         i=0;
         while ((ent = readdir(dir)) != NULL)
           {
@@ -67,67 +67,67 @@ void tcross(){
             }while(ejecutar==false);
             switch (k){
               case 1:{
-                rename(titles,k);
+                renamex(titles,k);
               break;}
               case 2:{
-                rename(titles,k);
+                renamex(titles,k);
               break;}
               case 3:{
-                rename(titles,k);
+                renamex(titles,k);
               break;}
               case 4:{
-                rename(titles,k);
+                renamex(titles,k);
               break;}
               case 5:{
-                rename(titles,k);
+                renamex(titles,k);
               break;}
               case 6:{
-                rename(titles,k);
+                renamex(titles,k);
               break;}
               case 7:{
-                rename(titles,k);
+                renamex(titles,k);
               break;}
               case 8:{
-                rename(titles,k);
+                renamex(titles,k);
               break;}
               case 9:{
-                rename(titles,k);
+                renamex(titles,k);
               break;}
               case 10:{
-                rename(titles,k);
+                renamex(titles,k);
               break;}
               case 11:{
-                rename(titles,k);
+                renamex(titles,k);
               break;}
               case 12:{
-                rename(titles,k);
+                renamex(titles,k);
               break;}
               case 13:{
-                rename(titles,k);
+                renamex(titles,k);
               break;}
               case 14:{
-                rename(titles,k);
+                renamex(titles,k);
               break;}
               case 15:{
-                rename(titles,k);
+                renamex(titles,k);
               break;}
               case 16:{
-                rename(titles,k);
+                renamex(titles,k);
               break;}
               case 17:{
-                rename(titles,k);
+                renamex(titles,k);
               break;}
               case 18:{
-                rename(titles,k);
+                renamex(titles,k);
               break;}
               case 19:{
-                rename(titles,k);
+                renamex(titles,k);
               break;}
               case 20:{
-                rename(titles,k);
+                renamex(titles,k);
               break;}
               case 21:{
-                rename(titles,k);
+                renamex(titles,k);
               break;}
             }
             consoleInit(NULL);
