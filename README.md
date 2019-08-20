@@ -1,4 +1,4 @@
 # Mod Manager
 Version Beta.
 Enable and disable LayeredFS mods quickly.
-Compiled http://www.esomovilla.es/Mod_Manager.nro
+Compiled https://github.com/Syzygye/Mod-Manager/releases/download/0.2/Mod_Manager.0_2.nro
