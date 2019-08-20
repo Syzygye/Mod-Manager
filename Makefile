@@ -31,7 +31,7 @@ include $(DEVKITPRO)/libnx/switch_rules
 #     - <libnx folder>/icon.jpg
 #---------------------------------------------------------------------------------
 VERSION_MAJOR := 0
-VERSION_MINOR := 1
+VERSION_MINOR := 2
 VERSION_MICRO := 0
 ICON:=	icon.jpg
 APP_TITLE	:=	Mod Manager
