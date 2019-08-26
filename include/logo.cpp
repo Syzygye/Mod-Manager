@@ -1,5 +1,5 @@
 void logo(){
-  for (int x=0;x<2099; x++) {
+  for (int x=0;x<1000; x++) {
     printf(CONSOLE_ESC(32;3m));
     printf("\x1b[20;28H +-+-+-+-+-+-+-+-+-+-+-+");
     printf("\x1b[21;28H |                     |");

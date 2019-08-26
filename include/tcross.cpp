@@ -30,6 +30,7 @@ void tcross(){
           do{
             hidScanInput(); //Input of keys.
             u64 kDown = hidKeysDown(CONTROLLER_P1_AUTO);
+
             if (kDown & KEY_B){ejecutar=true;k=0;q=1;}
             if (kDown & KEY_A){ejecutar=true;}
             if (kDown & KEY_DUP && (k>1)){--k;}
@@ -63,6 +64,27 @@ void tcross(){
               case 19:printf("\x1b[22;0H+\n"); break;
               case 20:printf("\x1b[23;0H+\n"); break;
               case 21:printf("\x1b[24;0H+\n"); break;
+              case 22:printf("\x1b[25;0H+\n"); break;
+              case 23:printf("\x1b[26;0H+\n"); break;
+              case 24:printf("\x1b[27;0H+\n"); break;
+              case 25:printf("\x1b[28;0H+\n"); break;
+              case 26:printf("\x1b[29;0H+\n"); break;
+              case 27:printf("\x1b[30;0H+\n"); break;
+              case 28:printf("\x1b[31;0H+\n"); break;
+              case 29:printf("\x1b[32;0H+\n"); break;
+              case 30:printf("\x1b[33;0H+\n"); break;
+              case 31:printf("\x1b[34;0H+\n"); break;
+              case 32:printf("\x1b[35;0H+\n"); break;
+              case 33:printf("\x1b[36;0H+\n"); break;
+              case 34:printf("\x1b[37;0H+\n"); break;
+              case 35:printf("\x1b[38;0H+\n"); break;
+              case 36:printf("\x1b[39;0H+\n"); break;
+              case 37:printf("\x1b[40;0H+\n"); break;
+              case 38:printf("\x1b[41;0H+\n"); break;
+              case 39:printf("\x1b[42;0H+\n"); break;
+              case 40:printf("\x1b[43;0H+\n"); break;
+              case 41:printf("\x1b[44;0H+\n"); break;
+              case 42:printf("\x1b[45;0H+\n"); break;
             }
             }while(ejecutar==false);
             switch (k){
@@ -127,6 +149,69 @@ void tcross(){
                 rename(titles,k);
               break;}
               case 21:{
+                rename(titles,k);
+              break;}
+              case 22:{
+                rename(titles,k);
+              break;}
+              case 23:{
+                rename(titles,k);
+              break;}
+              case 24:{
+                rename(titles,k);
+              break;}
+              case 25:{
+                rename(titles,k);
+              break;}
+              case 26:{
+                rename(titles,k);
+              break;}
+              case 27:{
+                rename(titles,k);
+              break;}
+              case 28:{
+                rename(titles,k);
+              break;}
+              case 29:{
+                rename(titles,k);
+              break;}
+              case 30:{
+                rename(titles,k);
+              break;}
+              case 31:{
+                rename(titles,k);
+              break;}
+              case 32:{
+                rename(titles,k);
+              break;}
+              case 33:{
+                rename(titles,k);
+              break;}
+              case 34:{
+                rename(titles,k);
+              break;}
+              case 35:{
+                rename(titles,k);
+              break;}
+              case 36:{
+                rename(titles,k);
+              break;}
+              case 37:{
+                rename(titles,k);
+              break;}
+              case 38:{
+                rename(titles,k);
+              break;}
+              case 39:{
+                rename(titles,k);
+              break;}
+              case 40:{
+                rename(titles,k);
+              break;}
+              case 41:{
+                rename(titles,k);
+              break;}
+              case 42:{
                 rename(titles,k);
               break;}
             }

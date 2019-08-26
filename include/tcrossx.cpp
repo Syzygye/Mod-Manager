@@ -63,6 +63,27 @@ void tcrossx(){
               case 19:printf("\x1b[22;0H+\n"); break;
               case 20:printf("\x1b[23;0H+\n"); break;
               case 21:printf("\x1b[24;0H+\n"); break;
+              case 22:printf("\x1b[25;0H+\n"); break;
+              case 23:printf("\x1b[26;0H+\n"); break;
+              case 24:printf("\x1b[27;0H+\n"); break;
+              case 25:printf("\x1b[28;0H+\n"); break;
+              case 26:printf("\x1b[29;0H+\n"); break;
+              case 27:printf("\x1b[30;0H+\n"); break;
+              case 28:printf("\x1b[31;0H+\n"); break;
+              case 29:printf("\x1b[32;0H+\n"); break;
+              case 30:printf("\x1b[33;0H+\n"); break;
+              case 31:printf("\x1b[34;0H+\n"); break;
+              case 32:printf("\x1b[35;0H+\n"); break;
+              case 33:printf("\x1b[36;0H+\n"); break;
+              case 34:printf("\x1b[37;0H+\n"); break;
+              case 35:printf("\x1b[38;0H+\n"); break;
+              case 36:printf("\x1b[39;0H+\n"); break;
+              case 37:printf("\x1b[40;0H+\n"); break;
+              case 38:printf("\x1b[41;0H+\n"); break;
+              case 39:printf("\x1b[42;0H+\n"); break;
+              case 40:printf("\x1b[43;0H+\n"); break;
+              case 41:printf("\x1b[44;0H+\n"); break;
+              case 42:printf("\x1b[45;0H+\n"); break;
             }
             }while(ejecutar==false);
             switch (k){
@@ -127,6 +148,69 @@ void tcrossx(){
                 renamex(titles,k);
               break;}
               case 21:{
+                renamex(titles,k);
+              break;}
+              case 22:{
+                renamex(titles,k);
+              break;}
+              case 23:{
+                renamex(titles,k);
+              break;}
+              case 24:{
+                renamex(titles,k);
+              break;}
+              case 25:{
+                renamex(titles,k);
+              break;}
+              case 26:{
+                renamex(titles,k);
+              break;}
+              case 27:{
+                renamex(titles,k);
+              break;}
+              case 28:{
+                renamex(titles,k);
+              break;}
+              case 29:{
+                renamex(titles,k);
+              break;}
+              case 30:{
+                renamex(titles,k);
+              break;}
+              case 31:{
+                renamex(titles,k);
+              break;}
+              case 32:{
+                renamex(titles,k);
+              break;}
+              case 33:{
+                renamex(titles,k);
+              break;}
+              case 34:{
+                renamex(titles,k);
+              break;}
+              case 35:{
+                renamex(titles,k);
+              break;}
+              case 36:{
+                renamex(titles,k);
+              break;}
+              case 37:{
+                renamex(titles,k);
+              break;}
+              case 38:{
+                renamex(titles,k);
+              break;}
+              case 39:{
+                renamex(titles,k);
+              break;}
+              case 40:{
+                renamex(titles,k);
+              break;}
+              case 41:{
+                renamex(titles,k);
+              break;}
+              case 42:{
                 renamex(titles,k);
               break;}
             }
