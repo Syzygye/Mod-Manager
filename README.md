@@ -1,6 +1,5 @@
 # Mod Manager
-<img src="https://github.com/Syzygye/Mod-Manager/blob/master/icon.jpg"> <br/>
-Version Beta.<br/>
-Enable and disable LayeredFS mods quickly.<br/>
-Compatible with Atmosphere and Sxos.<br/>
-Compiled https://github.com/Syzygye/Mod-Manager/releases/download/0.2/Mod_Manager.0_2.nro
+<img src="https://github.com/HookedBehemoth/Mod-Manager/blob/master/icon.jpg"> <br/>
+Version 0.3.0 rewrite.<br/>
+Enable and disable LayeredFS mods (and custom sys-modules) quickly.<br/>
+release: https://github.com/HookedBehemoth/Mod-Manager/releases/tag/v0.3
